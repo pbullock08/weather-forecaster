@@ -33,11 +33,12 @@ aside ul {
     list-style-type: none;
     padding-left: 0px;
     width: 100%;
-    background-color: #abaed3;
 }
 
 aside li{
     text-align: center;
+    background-color: #abaed3;
+    margin-bottom: 15px;
 }
 
 /* styling for current forecast box */
@@ -45,6 +46,11 @@ aside li{
     width: 100%;
     border: solid #3e3b51 1px;
     padding: 5px;
+}
+
+.current h4 {
+    padding-left: 16px;
+    background-color: #9e616b;
 }
 
 .current ul {
@@ -59,7 +65,8 @@ aside li{
 }
 
 .card {
-    background-color: #9e616b;
+    background-color: #3e3b51;
+    color: white;
 }
 
 .c1, .c2, .c3, .c4 {
