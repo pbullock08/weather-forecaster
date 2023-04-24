@@ -1,0 +1,77 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* stylying for header */
+header {
+    text-align: center;
+    background-color: #24142c;
+    color: white;
+}
+
+/* stying for search aside */
+input {
+    width: 100%;
+}
+
+button {
+    margin-top: 8px;
+    width: 100%;
+    background-color: #748cf1;
+    border: none;
+}
+
+span {
+    display: block;
+    width: 100%;
+    margin: 13px;
+    margin-left: 0px;
+    border-bottom: solid lightgray 1.5px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding-left: 0px;
+    width: 100%;
+    background-color: #abaed3;
+}
+
+aside li{
+    text-align: center;
+}
+
+/* styling for current forecast box */
+.current {
+    width: 100%;
+    border: solid #3e3b51 1px;
+    padding: 5px;
+}
+
+.current ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+/* styling for 5-day forecast cards */
+.five-day {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card {
+    background-color: #9e616b;
+}
+
+.c1, .c2, .c3, .c4 {
+    margin-right 5px;
+}
+
+.card-header {
+    border-bottom: none;
+}
+
+.l1, .l2, .l3 {
+    border-bottom-color: white;
+}
+
+
