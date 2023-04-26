@@ -58,6 +58,11 @@ aside li{
     padding-left: 0px;
 }
 
+.currentHeader {
+    display: flex;
+    background-color: #9e616b;
+}
+
 /* styling for 5-day forecast cards */
 .five-day {
     padding-top: 10px;
@@ -70,7 +75,7 @@ aside li{
 }
 
 .c1, .c2, .c3, .c4 {
-    margin-right 5px;
+    margin-right: 5px;
 }
 
 .card-header {
