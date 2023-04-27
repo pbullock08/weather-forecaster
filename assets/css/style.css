@@ -41,8 +41,9 @@ aside li {
     margin-bottom: 15px;
 }
 
-aside li:hover{
+aside ul li:hover{
     color: white;
+    cursor: default;
 }
 
 /* styling for current forecast box */
