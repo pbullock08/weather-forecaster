@@ -23,4 +23,4 @@ Please refer to the license in the repo.
 
 ## Deployed Application
 [Deployed Application](https://pbullock08.github.io/weather-forecaster/)
-![image](./assets/)
+![image](./assets/images/deployed-app.gif)
