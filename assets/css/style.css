@@ -37,11 +37,16 @@ aside ul {
 
 aside li {
     text-align: center;
-    background-color: #abaed3;
+    background-color: #d9cedb;
     margin-bottom: 15px;
 }
 
 /* styling for current forecast box */
+.current, 
+.five-day {
+    visibility: hidden;
+}
+
 .current {
     width: 100%;
     border: solid #3e3b51 1px;
@@ -50,7 +55,8 @@ aside li {
 
 .currentHeader {
     display: flex;
-    background-color: #9e616b;
+    background-color: #3e3b51;
+    color: white;
 }
 
 .current h4 {
@@ -61,11 +67,17 @@ aside li {
 .current img {
     max-width: 50px;
     height: auto;
+    padding-left: 10px;
 }
 
 .current ul {
     list-style-type: none;
     padding-left: 0px;
+}
+
+.current .l1,
+.current .l2 {
+    border-bottom-color: white;
 }
 
 /* styling for 5-day forecast cards */
@@ -74,9 +86,10 @@ aside li {
     padding-bottom: 10px;
 }
 
-.card {
-    background-color: #3e3b51;
-    color: white;
+.card-header {
+    background-color: white;
+    color: #3e3b51;
+    border-bottom: none;
 }
 
 .c1,
@@ -86,8 +99,15 @@ aside li {
     margin-right: 5px;
 }
 
-.card-header {
-    border-bottom: none;
+.five-day .list-group-item {
+    background-color: #abaed3;
+}
+
+.five-day .l1,
+.five-day .l2,
+.five-day .l3 {
+    border-bottom-color: #abaed3;
+    ;
 }
 
 .icon1,
@@ -98,10 +118,4 @@ aside li {
     max-width: 50px;
     height: auto;
     text-align: center;
-}
-
-.l1,
-.l2,
-.l3 {
-    border-bottom-color: white;
 }
