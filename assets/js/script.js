@@ -64,7 +64,7 @@ cityInput.addEventListener('click', function (event) {
 
 // fetch geo data 
 function weatherFetch(cityName) {
-    var requestUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=6d8c8c2517262ec75ca50bfee4f15b76`
+    var requestUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=6d8c8c2517262ec75ca50bfee4f15b76`
     fetch(requestUrl)
         .then(function (response) {
             return response.json();
