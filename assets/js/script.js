@@ -10,6 +10,10 @@ var searchedCities = document.querySelector('aside ul');
 // event listener for searching a city using the search button
 buttonEl.addEventListener('click', function (event) {
     event.preventDefault();
+    if (cityInput.value === '') {
+        alert('Please enter a valid city!');
+        return;
+    }
     currentEl.setAttribute('style', 'visibility: visible');
     fiveDayEl.setAttribute('style', 'visibility: visible');
     var cities = {
