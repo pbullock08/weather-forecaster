@@ -41,6 +41,10 @@ aside li {
     margin-bottom: 15px;
 }
 
+aside li:hover{
+    color: white;
+}
+
 /* styling for current forecast box */
 .current, 
 .five-day {
