@@ -35,7 +35,7 @@ aside ul {
     width: 100%;
 }
 
-aside li{
+aside li {
     text-align: center;
     background-color: #abaed3;
     margin-bottom: 15px;
@@ -48,19 +48,24 @@ aside li{
     padding: 5px;
 }
 
+.currentHeader {
+    display: flex;
+    background-color: #9e616b;
+}
+
 .current h4 {
     padding-left: 16px;
-    background-color: #9e616b;
+    margin-top: 8px;
+}
+
+.current img {
+    max-width: 50px;
+    height: auto;
 }
 
 .current ul {
     list-style-type: none;
     padding-left: 0px;
-}
-
-.currentHeader {
-    display: flex;
-    background-color: #9e616b;
 }
 
 /* styling for 5-day forecast cards */
@@ -74,7 +79,10 @@ aside li{
     color: white;
 }
 
-.c1, .c2, .c3, .c4 {
+.c1,
+.c2,
+.c3,
+.c4 {
     margin-right: 5px;
 }
 
@@ -82,8 +90,18 @@ aside li{
     border-bottom: none;
 }
 
-.l1, .l2, .l3 {
-    border-bottom-color: white;
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+    max-width: 50px;
+    height: auto;
+    text-align: center;
 }
 
-
+.l1,
+.l2,
+.l3 {
+    border-bottom-color: white;
+}
