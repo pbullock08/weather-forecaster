@@ -52,6 +52,10 @@ function renderCities() {
             fiveDayEl.setAttribute('style', 'visibility: visible');
             weatherFetch(this.innerHTML);
         });
+
+        if (cityArray.length > 8) {
+            cityArray.shift();
+        }
     }
 }
 
